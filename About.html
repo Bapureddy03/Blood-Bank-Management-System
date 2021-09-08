@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/navstyle.css">
+</head>
+<body>
+       <div class="spinner-border" style="width: 3rem; height: 3rem; margin-left:50px; margin-top:200px;" role="status" id="loader">
+  <span class="sr-only">Loading...</span>
+</div>
+<script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script> 
+    
+    
+<nav class="navbar navbar-light" style="background-color: #58111A; border-bottom:4px ridge black; width:100%;">
+    <a class="navbar-brand" href="#">
+    <img src="https://www.blood.ca/sites/default/files/icon/blood-types_b-positive_blood-drop.jpg"  class="d-inline-block align-top" style="width:40px; height:40px; border-radius:20%; border:2px ridge black;">
+    <span style="font-style: monoscript; font-weight: bold; color: white;">&nbsp;BloodBank</span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="rotate" style="border: 4px ridge black;
+  border-radius: 20%; padding:0px;">
+    <span class="navbar-toggler-icon" style="background-color: white; border-radius: 15%; font-size: 1.1em;" ></span>
+  </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center" >
+        <li style="border-bottom: 10px ridge white; background-color: white;
+        border-top-left-radius: 20px; border-top-right-radius: 20px;">
+            <a href="http://roushan.xyz/dashboard.html" id="menu" style="color:black; font-weight:bold;"><br class="hidden-xs"> DashBoard</a>
+        </li>
+        <li style="border-bottom: 10px ridge white;background-color: white;">
+            <a href="http://roushan.xyz/donor.php" id="menu" style="color:black; font-weight:bold;"><br class="hidden-xs"> Donate Blood</a>
+        </li>
+        <li style="border-bottom: 10px ridge white;background-color: white;">
+            <a href="http://roushan.xyz/d.php" id="menu" style="color:black; font-weight:bold;"><br class="hidden-xs"> Donor Details</a>
+        </li>
+         <li style="border-bottom: 10px ridge white;background-color: white;
+         border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+            <a href="#" id="menu" style="color:black; font-weight:bold;"><br class="hidden-xs"> About Us</a>
+        </li>
+    </ul>
+
+  </div>
+</nav>
+
+
+	
+	<div  class="container">
+<div class="container-md-12" style="widht:100%; height:400px; border:1px ridge black;">
+	<img src="images/me.jfif" alt="" id="img">
+	<ul>
+		<li id="name">ROUSHAN KUMAR</li>
+		<li>BACK-END ANDROID DEVELOER</li>
+		<li>COLLEGE UID: 18BCS2066</li>
+		<li>CONTACT: +917765883382</li>
+	</ul>
+	</div>
+
+<div class="container-md-12" style="widht:100%; height:400px; border:1px ridge black;">
+	<img src="images/pp.jpeg" alt="" id="img">
+	<ul>
+		<li id="name">ANIMESH SINGH</li>
+		<li>FRONT-END LAYOUT DESIGNER</li>
+		<li>COLLEGE UID: 18BCS2063</li>
+		<li>CONTACT: +919681999271</li>
+	</ul>
+</div>
+<div class="container-md-12" style="widht:100%; height:400px; border:1px ridge black;">
+	<img src="images/pp (1).jfif" alt="" id="img">
+		<ul>
+		<li id="name">BONY KUMAR</li>
+		<li>DATABASE HANDLER & GRAPHICS EXPERT</li>
+		<li>COLLEGE UID: 18BCS2062</li>
+		<li>CONTACT: +919204413541</li>
+	</ul>
+</div>
+<div class="container-md-12" style="widht:100%; height:400px; border:1px ridge black;">
+	<img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" id="img">
+	<ul>
+		<li id="name">Special Thanks To...</li>
+		<li id="name">ER. SAKSHI THAKUR (MAM)</li>
+		<li>We wish to express our gratitude to  our 'Mentor' for being supportive. Your presence and your help was a source of encouragement for all of us.</li>
+	</ul>
+
+</div>
+
+    </div>
+</body>
+</html>
+<html>
